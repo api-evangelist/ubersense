@@ -1,7 +1,25 @@
 aid: ubersense
-name: UberSense *
-description: 'UberSense * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubersense.png
+name: UberSense
+description: >-
+  UberSense was a Boston, Massachusetts sports-technology startup whose mobile
+  app provided slow-motion video capture and analysis for coaching athletes,
+  from recreational to Olympic and professional levels. Backed by GV (Google
+  Ventures), UberSense was acquired by Hudl in September 2014 and its
+  technology folded into Hudl's sports video analysis products. The
+  ubersense.com website is now defunct (a decommissioned Heroku app) and the
+  company publishes no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ubersense/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +27,20 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: hudl
+x-acquired-date: '2014-09'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Sports
+- Video
+- Coaching
+- Mobile
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ubersense-domain-security.yml
+- type: LLMsTxt
+  url: llms/ubersense-llms.txt
 - type: Website
   url: http://ubersense.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

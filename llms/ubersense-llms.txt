@@ -1,0 +1,12 @@
+# UberSense
+
+> UberSense was a Boston, Massachusetts sports-technology startup whose mobile app provided slow-motion video capture and analysis for coaching athletes, from recreational to Olympic and professional levels. Backed by GV (Google Ventures), it was acquired by Hudl in September 2014. The company website (ubersense.com) is now defunct and the company publishes no public API surface.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/ubersense/refs/heads/main/apis.yml): API Evangelist network profile for UberSense
+- [Hudl](https://www.hudl.com/): acquirer (September 2014); UberSense's sports video analysis technology was folded into Hudl's product line
+
+## Status
+
+- Website http://ubersense.com redirects to a decommissioned Heroku app (404 "No such app"); no docs, no developer portal, no public APIs, no published well-known documents.

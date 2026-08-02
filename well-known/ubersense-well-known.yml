@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of ubersense.com hosts
+note: >-
+  ubersense.com apex 301s to www.ubersense.com, which resolves to a
+  decommissioned Heroku app (ubersense.herokuapp.com) returning 404
+  "No such app" for every path. HTTPS on both hosts serves only the
+  mismatched *.herokuapp.com wildcard certificate. No well-known
+  documents are published. UberSense was acquired by Hudl in
+  September 2014 and the site is defunct.
+host: http://www.ubersense.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
