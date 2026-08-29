@@ -32,6 +32,9 @@ description: >-
   ubersense.com website is now defunct (a decommissioned Heroku app) and the
   company publishes no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ubersense/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The ubersense.com website is now defunct (a decommissioned Heroku app) and the company publishes no public API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
